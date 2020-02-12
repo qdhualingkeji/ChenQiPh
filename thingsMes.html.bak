@@ -10,12 +10,12 @@
   <title>物联MES</title>
  </head>
  <body style="margin:0;">
-  <div style="background-color:#333;color:#fff;height: 60px;width: 100%;border-bottom: 1px solid;hsla(0,0%,100%,.2);">
+  <div style="background-color:#333;height: 60px;width: 100%;border-bottom: 1px solid;hsla(0,0%,100%,.2);">
 	<div style="width:33%;height:60px;line-height:60px;text-align:center;">
-		<a>物联MES</a>
+		<a href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
 	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:33%;text-align:center;">
-		<a>物联人员定位</a>
+		<a href="thingsPerFix.html">物联人员定位</a>
 	</div>
 	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:66%;text-align:center;">
 		<a>关于我们</a>
@@ -47,6 +47,7 @@
   </div>
   <div style="margin-top:30px;height:30px;line-height:30px;text-align:center;">强大的远程画面监控和数据整合能力</div>
   <div style="width:95%;font-size:12px;margin:0 auto;">独立于第三方硬件（PLC，DCS）的数据整合能力，连接各种品牌控制器和仪表的数据</div>
+  <div style="height:10px;"></div>
   <div>
 	<img src="repository/image/202001100003.png" style="width:100%;height:205px;"/>
   </div>
