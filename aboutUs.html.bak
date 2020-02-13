@@ -18,7 +18,7 @@
 		<a href="thingsPerFix.html" style="color:#fff;text-decoration: none;">物联人员定位</a>
 	</div>
 	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:66%;text-align:center;">
-		<a style="color:#fff;text-decoration: none;">关于我们</a>
+		<a href="aboutUs.html" style="color:#fff;text-decoration: none;">关于我们</a>
 	</div>
   </div>
 
@@ -37,7 +37,7 @@
 	  </div>
   </div>
 
-  <div style="width:100%;height:220px;background-color:#1F232A;bottom:0;position:fixed;">
+  <div style="width:100%;height:220px;background-color:#1F232A;bottom:0;position:fixed; ">
 	<div style="color:#fff;height:30px;line-height:30px;margin-left: 10px;">关于辰麒</div>
 	<div style="width:95%;font-size:12px;margin:0 auto;color:#fff;">辰麒是被全球广泛认可的国际化工业互联网赋能平台公司，不仅是首批通过工业互联网平台可信服务评估认证的企业之一，同时也是首家入选Gartner IIoT 魔力象限的中国工业互联网平台企业。</div>
 	<div style="color:#fff;margin-top: 10px;margin-left: 10px;">资讯热线：400-868-1122</div>
