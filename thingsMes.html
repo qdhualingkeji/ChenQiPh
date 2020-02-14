@@ -8,9 +8,17 @@
   <meta name="Description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>物联MES</title>
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+  $(function(){
+	  var ltdHeight=$("#logoText_div").css("height");
+	  $("#logoImg_div").css("height",ltdHeight);
+	  $("#logoText_div").css("margin-top","-"+ltdHeight);
+  });
+  </script>
  </head>
  <body style="margin:0;">
-  <div class="nav_div" style="background-color:#333;height: 60px;width: 100%;border-bottom: 1px solid;hsla(0,0%,100%,.2);">
+  <div class="nav_div" style="height: 60px;width: 100%;border-bottom: 1px solid #fff;hsla(0,0%,100%,.2);top:0;background-color:#333;position:fixed;">
 	<div class="mes_div" style="width:33%;height:60px;line-height:60px;text-align:center;">
 		<a class="mes_a" href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
@@ -22,10 +30,12 @@
 	</div>
   </div>
 
-  <div style="height:150px;">
-	<img style="width:100%;height: 150px;" src="file/20190728/banner_da2a4716-cbb7-480a-bbee-4c9ac2f2c370.png"/>
+  <div style="width:100%;height:60px;"></div>
+
+  <div class="logoImg_div" id="logoImg_div">
+	<img style="width:100%;height: 100%;" src="file/20190728/banner_da2a4716-cbb7-480a-bbee-4c9ac2f2c370.png"/>
   </div>
-  <div style="color:#fff;margin-top:-150px;">
+  <div class="logoText_div" id="logoText_div" style="color:#fff;">
 	<div style="font-size:20px;margin-top:10px;margin-left: 10px;">
 		化工行业解决方案
 	</div>
@@ -33,6 +43,7 @@
 	<div style="width:95%;font-size:12px;margin:0 auto;">
 		智慧化工解决方案通过智慧监控平台的建立，将原来分散、凌乱的业务系统在业务与数据两个层面实现全面整合，平台将科学的管理理念和先进的技术手段紧密结合起来，以提升区域的环境/人员/设备监管、综合治理和科学决策能力目标，对于化工企业实现信息化管理，进而实现化工企业智能化。
 	</div>
+	<div style="height:20px;"></div>
   </div>
   <div style="margin-top:30px;height:30px;line-height:30px;text-align:center;">什么是IOS-MES系统？</div>
   <div style="width:95%;font-size:12px;margin:0 auto;">简单的说，IOT-MES（工业物联网MES）是基于云平台的工业物联网、具有远程实时监控功能的MES系统。</div>
@@ -62,18 +73,14 @@
   <div>
 	<img src="repository/image/202001100005.png" style="width:100%;height:205px;"/>
   </div>
-  <div style="margin-top:30px;height:30px;line-height:30px;text-align:center;">实施案例</div>
-  <div>
-	<img src="file/20190728/3_4a3e72af-308f-42fc-b9e1-dc5bb9f84628.png" style="width:100%;height:150px;"/>
-  </div>
 
   <div style="width:100%;height:220px;background-color:#1F232A;">
 	<div style="color:#fff;height:30px;line-height:30px;margin-left: 10px;">关于辰麒</div>
 	<div style="width:95%;font-size:12px;margin:0 auto;color:#fff;">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辰麒软件是青岛华凌科技有限公司旗下一主打软件品牌，致力于运用工业物联网、蓝牙定位等新技术，打造现代智能化生产制造、智能仓储WMS系统。
+		辰麒软件是青岛华凌科技有限公司旗下一主打软件品牌，致力于运用工业物联网、蓝牙定位等新技术，打造现代智能化生产制造、智能仓储WMS系统。
 	</div>
 	<div style="width:95%;font-size:12px;margin:0 auto;color:#fff;">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辰麒工业物联网系统包括MES远程监控平台、厂区人员定位系统，二维码产品追溯系统以及基于RFID和手机应用的新一代WMS系统等多个系统平台，全方位地为企业智能制造和智慧仓储提供信息化技术服务。
+		辰麒工业物联网系统包括MES远程监控平台、厂区人员定位系统，二维码产品追溯系统以及基于RFID和手机应用的新一代WMS系统等多个系统平台，全方位地为企业智能制造和智慧仓储提供信息化技术服务。
 	</div>
 	<div style="color:#fff;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351</div>
 	<div style="color:#fff;width:95%;font-size:12px;margin:0 auto;margin-top: 10px;text-align:center;">青岛华凌科技有限公司 qdhualing.com 鲁ICP备15031378号</div>
