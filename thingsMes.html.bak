@@ -10,11 +10,7 @@
   <title>物联MES</title>
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
   <script type="text/javascript">
-  $(function(){
-	  var ltdHeight=$("#logoText_div").css("height");
-	  $("#logoImg_div").css("height",ltdHeight);
-	  $("#logoText_div").css("margin-top","-"+ltdHeight);
-  });
+  
   </script>
  </head>
  <body style="margin:0;">
@@ -23,30 +19,19 @@
 		<a class="mes_a" href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
 	<div class="wlrydw_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:33%;text-align:center;">
-		<a href="thingsPerFix.html" style="color:#fff;text-decoration: none;">物联人员定位</a>
+		<a class="wlrydw_a" href="thingsPerFix.html" style="color:#fff;text-decoration: none;">物联人员定位</a>
 	</div>
-	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:66%;text-align:center;">
-		<a href="aboutUs.html" style="color:#fff;text-decoration: none;">关于我们</a>
+	<div class="gywm_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:66%;text-align:center;">
+		<a class="gywm_a" href="aboutUs.html" style="color:#fff;text-decoration: none;">关于我们</a>
 	</div>
   </div>
 
   <div style="width:100%;height:60px;"></div>
 
   <div class="logoImg_div" id="logoImg_div">
-	<img style="width:100%;height: 100%;" src="file/20190728/banner_da2a4716-cbb7-480a-bbee-4c9ac2f2c370.png"/>
+	<img class="logo_img" style="width:100%;height: 100%;" src="file/20190728/banner_da2a4716-cbb7-480a-bbee-4c9ac2f2c370.png"/>
   </div>
-  <div class="logoText_div" id="logoText_div" style="color:#fff;">
-	<div style="font-size:20px;margin-top:10px;margin-left: 10px;">
-		化工行业解决方案
-	</div>
-	<div style="height:10px;"></div>
-	<div style="width:95%;font-size:12px;margin:0 auto;">
-		智慧化工解决方案通过智慧监控平台的建立，将原来分散、凌乱的业务系统在业务与数据两个层面实现全面整合，平台将科学的管理理念和先进的技术手段紧密结合起来，以提升区域的环境/人员/设备监管、综合治理和科学决策能力目标，对于化工企业实现信息化管理，进而实现化工企业智能化。
-		智慧化工解决方案通过智慧监控平台的建立，将原来分散、凌乱的业务系统在业务与数据两个层面实现全面整合，平台将科学的管理理念和先进的技术手段紧密结合起来，以提升区域的环境/人员/设备监管、综合治理和科学决策能力目标，对于化工企业实现信息化管理，进而实现化工企业智能化。
-		aaa智慧化工解决方案通过智慧监控平台的建立，将原来分散、凌乱的业务系统在业务与数据两个层面实现全面整合，平台将科学的管理理念和先进的技术手段紧密结合起来，以提升区域的环境/人员/设备监管、综合治理和科学决策能力目标，对于化工企业实现信息化管理，进而实现化工企业智能化。
-	</div>
-	<div style="height:20px;"></div>
-  </div>
+  
   <div style="margin-top:30px;height:30px;line-height:30px;text-align:center;">什么是IOS-MES系统？</div>
   <div style="width:95%;font-size:12px;margin:0 auto;">简单的说，IOT-MES（工业物联网MES）是基于云平台的工业物联网、具有远程实时监控功能的MES系统。</div>
   <div>
