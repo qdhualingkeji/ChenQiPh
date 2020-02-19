@@ -25,33 +25,30 @@
   <div style="width:100%;height:60px;"></div>
 
   <div>
-	<img style="width:100%;height: 150px;" src="_nuxt/img/e722f1f.jpg"/>
+	<img style="width:100%;height: 100%;" src="_nuxt/img/e722f1f.jpg"/>
   </div>
 
   <div style="width:100%;background-color:#F9F9F9;">
 	  <div style="height:10px;"></div>
 	  <div style="width:95%;font-size:12px;margin:0 auto;">
-		辰麒紧跟全国各地推进制造业转型升级、智能制造园区建设的步伐，展开全国布局，目前已经落地广州，并落户北京、上海、长沙、苏州、西安，不仅发力于中国先进制造业的集中承载地、更辐射京津冀、长三角地区和华中地区，带动全国范围内的工业互联网应用，助力中国制造业实现换道超车。
+		青岛华凌科技有限公司是一家集软件产品研发、DCS、PLC控制系统、MES制造执行系统设计集成，电气仪表等自动化设备代理、销售为一体的高科技公司。
 	  </div>
 	  <div style="height:10px;"></div>
 	  <div style="width:95%;font-size:12px;margin:0 auto;">
-		截至目前，树根互联已服务德国、肯尼亚、印度、南非、印尼、墨西哥等海外国家的当地企业，持续开拓全球服务能力，支持45个国家和地区的设备接入。
+		辰麒软件是青岛华凌科技有限公司旗下一主打软件品牌，致力于运用工业物联网、蓝牙定位等新技术，打造新一代智能化生产制造、智能仓储WMS系统。
+	  </div>
+	  <div style="height:10px;"></div>
+	  <div style="width:95%;font-size:12px;margin:0 auto;">
+		辰麒工业物联网软件包括MES远程监控平台、厂区人员定位系统，二维码产品追溯系统以及基于RFID和手机应用的新一代WMS系统等多个应用软件平台，为实现企业智能制造和智慧仓储提供全方位信息化技术服务。
 	  </div>
 	  <div style="height:10px;"></div>
   </div>
 
-  <div style="width:100%;height:220px;"></div>
-
-  <div style="width:100%;height:220px;bottom:0;background-color:#1F232A;position:fixed;">
-	<div style="color:#fff;height:30px;line-height:30px;margin-left: 10px;">关于辰麒</div>
-	<div style="width:95%;font-size:12px;margin:0 auto;color:#fff;">
-		辰麒软件是青岛华凌科技有限公司旗下一主打软件品牌，致力于运用工业物联网、蓝牙定位等新技术，打造现代智能化生产制造、智能仓储WMS系统。
-	</div>
-	<div style="width:95%;font-size:12px;margin:0 auto;color:#fff;">
-		辰麒工业物联网系统包括MES远程监控平台、厂区人员定位系统，二维码产品追溯系统以及基于RFID和手机应用的新一代WMS系统等多个系统平台，全方位地为企业智能制造和智慧仓储提供信息化技术服务。
-	</div>
-	<div style="color:#fff;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351</div>
-	<div style="color:#fff;width:95%;font-size:12px;margin:0 auto;margin-top: 10px;text-align:center;">青岛华凌科技有限公司 qdhualing.com 鲁ICP备15031378号</div>
+  <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;">
+	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">邮箱地址：qdhualing@126.com</div>
+	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">自动化控制系统集成网址：www.qdhualing.com</div>
+	<div style="color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;">青岛华凌科技有限公司 qdhualing.com 鲁ICP备15031378号</div>
   </div>
  </body>
 </html>
