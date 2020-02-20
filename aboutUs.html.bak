@@ -11,6 +11,7 @@
  </head>
  <body style="margin:0;">
   <div style="background-color:#333;height: 60px;width: 100%;border-bottom: 1px solid #fff;hsla(0,0%,100%,.2);top:0;position:fixed;">
+	<span style="color:#fff;font-size:12px;margin-top:5px;margin-left:5px;position:absolute;" onclick="closeWindow();">关闭</span>
 	<div style="width:33%;height:60px;line-height:60px;text-align:center;">
 		<a href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
@@ -44,7 +45,7 @@
 	  <div style="height:10px;"></div>
   </div>
 
-  <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;">
+  <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;bottom:0;position:fixed;">
 	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">邮箱地址：qdhualing@126.com</div>
 	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">自动化控制系统集成网址：www.qdhualing.com</div>

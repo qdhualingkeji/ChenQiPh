@@ -15,6 +15,7 @@
  </head>
  <body style="margin:0;">
   <div style="background-color:#333;color:#fff;height: 60px;width: 100%;border-bottom: 1px solid;hsla(0,0%,100%,.2);">
+	<span style="color:#fff;font-size:12px;margin-top:5px;margin-left:5px;position:absolute;" onclick="closeWindow();">关闭</span>
 	<div style="width:33%;height:60px;line-height:60px;text-align:center;">
 		<a href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
@@ -74,11 +75,6 @@
   <div style="height:10px;"></div>
   <div>
 	<img src="repository/image/202001140009.jpg" style="width:100%;height:205px;"/>
-  </div>
-
-  <div style="margin-top:10px;height:30px;line-height:30px;text-align:center;">实施案例</div>
-  <div>
-	<img src="file/20190728/3_4a3e72af-308f-42fc-b9e1-dc5bb9f84628.png" style="width:100%;height:100%;"/>
   </div>
   
   <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;">
