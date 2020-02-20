@@ -10,11 +10,16 @@
   <title>物联MES</title>
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
   <script type="text/javascript">
-  
+  function closeWindow(){
+  window.opener=null;
+window.open('','_self');
+window.close();
+  }
   </script>
  </head>
  <body style="margin:0;">
   <div class="nav_div" style="height: 60px;width: 100%;border-bottom: 1px solid #fff;hsla(0,0%,100%,.2);top:0;background-color:#333;position:fixed;">
+	<span style="color:#fff;font-size:12px;margin-top:5px;margin-left:5px;position:absolute;" onclick="closeWindow();">关闭</span>
 	<div class="mes_div" style="width:33%;height:60px;line-height:60px;text-align:center;">
 		<a class="mes_a" href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
@@ -30,22 +35,6 @@
 
   <div class="logoImg_div" id="logoImg_div">
 	<img class="logo_img" style="width:100%;height: 100%;" src="file/20190728/banner_da2a4716-cbb7-480a-bbee-4c9ac2f2c370.png"/>
-  </div>
-  
-  <div style="text-align:center;">
-	
-	<img src="site/site01624/upfile/201907/2019072331232927.jpg" alt="智能制造软件" style="width: 355px; height: 263px; top: 0px; left: 0px;">
-	<div style="width:100%;height:30px;line-height:30px;">
-		智能制造软件
-	</div>
-	<img src="site/site01624/upfile/201905/2019053137403041.jpg" alt="智能制造硬件" style="width: 355px; height: 263px; top: 0px; left: 0px;">
-	<div style="width:100%;height:30px;line-height:30px;">
-		智能制造硬件
-	</div>
-	<img src="site/site01624/upfile/201907/2019072331311099.jpg" alt="系统集成" style="width: 355px; height: 263px; top: 0px; left: 0px;">
-	<div style="width:100%;height:30px;line-height:30px;">
-		系统集成
-	</div>
   </div>
 
   <div style="margin-top:10px;height:30px;line-height:30px;text-align:center;">什么是IOS-MES系统？</div>
@@ -75,6 +64,11 @@
   <div style="height:10px;"></div>
   <div>
 	<img src="repository/image/202001100005.png" style="width:100%;height:205px;"/>
+  </div>
+
+  <div style="margin-top:10px;height:30px;line-height:30px;text-align:center;">实施案例</div>
+  <div>
+	<img src="file/20190728/3_4a3e72af-308f-42fc-b9e1-dc5bb9f84628.png" style="width:100%;height:100%;"/>
   </div>
 
   <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;">
