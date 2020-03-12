@@ -19,7 +19,7 @@
  </head>
  <body style="margin:0;">
   <div style="background-color:#333;color:#fff;height: 60px;width: 100%;border-bottom: 1px solid;hsla(0,0%,100%,.2);">
-	<span style="color:#fff;font-size:12px;margin-top:5px;margin-left:5px;position:absolute;" onclick="closeWindow();">关闭</span>
+	<span style="color:#fff;font-size:12px;margin-top:5px;margin-left:5px;position:absolute;" onclick="closeWindow();">&lt;</span>
 	<div style="width:33%;height:60px;line-height:60px;text-align:center;">
 		<a href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
 	</div>
@@ -85,7 +85,7 @@
 	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
 	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">邮箱地址：qdhualing@126.com</div>
 	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">自动化控制系统集成网址：www.qdhualing.com</div>
-	<div style="color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;">青岛华凌科技有限公司 qdhualing.com 鲁ICP备15031378号</div>
+	<div style="color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;">青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color:#fff;text-decoration:none;">鲁ICP备19062226号-4</a></div>
   </div>
  </body>
 </html>
