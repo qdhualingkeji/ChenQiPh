@@ -28,47 +28,106 @@
 	window.close();
   }
   </script>
+  <style>
+  body{
+	margin:0;
+  }
+  .nav_div{
+	width: 100%;
+	height: 60px;
+	top:0;
+	border-bottom: 1px solid #fff;hsla(0,0%,100%,.2);
+	position:fixed;
+	background-color:#333;
+	overflow:auto;
+  }
+  .nav_div .cw_span{
+	color:#fff;font-size:12px;margin-top:23px;margin-left:12px;position:absolute;
+  }
+  .nav_div .item_div{
+	width:33%;height:60px;line-height:60px;text-align:center;
+  }
+  .nav_div .wlrydw_div{
+	margin-top:-60px;margin-left:33%;
+  }
+  .nav_div .znczxt_div{
+	margin-top:-60px;margin-left:70%;
+  }
+  .nav_div .gywm_div{
+	margin-top:-60px;margin-left:104%;
+  }
+  .nav_div .mes_a,.nav_div .wlrydw_a,.nav_div .znczxt_a,.nav_div .gywm_a{
+	color:#fff;text-decoration: none;
+  }
+  .space1_div{
+	width:100%;height:60px;
+  }
+  .logo_img{
+	width:100%;height: 100%;
+  }
+  .qdhlkjjs_div{
+	width:100%;background-color:#F9F9F9;
+  }
+  .space2_div{
+	height:10px;
+  }
+  .qdhlkjjs_div .row_div{
+	width:95%;font-size:12px;margin:0 auto;
+  }
+  .bottom_div{
+	width:100%;height:150px;padding-top: 1px;background-color:#1F232A;bottom:0;position:fixed;
+  }
+  .lxfs_div{
+	color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;
+  }
+  .yxdz_div,.zdhkz_div{
+	color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;
+  }
+  .qdcqsw_div{
+	color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;
+  }
+  </style>
  </head>
- <body style="margin:0;">
-  <div style="background-color:#333;height: 60px;width: 100%;border-bottom: 1px solid #fff;hsla(0,0%,100%,.2);top:0;position:fixed;overflow:auto;">
-	<span style="color:#fff;font-size:12px;margin-top:23px;margin-left:12px;position:absolute;" onclick="closeWindow();">&lt;</span>
-	<div style="width:33%;height:60px;line-height:60px;text-align:center;">
-		<a href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
+ <body>
+  <div class="nav_div">
+	<span class="cw_span" onclick="closeWindow();">&lt;</span>
+	<div class="item_div mes_div">
+		<a class="mes_a" href="thingsMes.html">物联MES</a>
 	</div>
-	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:33%;text-align:center;">
-		<a href="thingsPerFix.html" style="color:#fff;text-decoration: none;">物联人员定位</a>
+	<div class="item_div wlrydw_div">
+		<a class="wlrydw_a" href="thingsPerFix.html">物联人员定位</a>
 	</div>
-	<div class="znczxt_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:70%;text-align:center;">
-		<a class="znczxt_a" href="intellectWeight.html" style="color:#fff;text-decoration: none;">智能称重系统</a>
+	<div class="item_div znczxt_div">
+		<a class="znczxt_a" href="intellectWeight.html">智能称重系统</a>
 	</div>
-	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:104%;text-align:center;">
-		<a href="aboutUs.html" style="color:#fff;text-decoration: none;">关于我们</a>
+	<div class="item_div gywm_div">
+		<a class="gywm_a" href="aboutUs.html">关于我们</a>
 	</div>
   </div>
 
-  <div style="width:100%;height:60px;"></div>
+  <div class="space1_div"></div>
 
   <div>
-	<img style="width:100%;height: 100%;" src="_nuxt/img/e722f1f.jpg"/>
+	<img class="logo_img" src="_nuxt/img/e722f1f.jpg"/>
   </div>
 
-  <div style="width:100%;background-color:#F9F9F9;">
-	  <div style="height:10px;"></div>
-	  <div style="width:95%;font-size:12px;margin:0 auto;">
-		青岛辰麒数维软件有限公司致力于运用工业物联网、蓝牙定位等新技术，打造新一代智能化生产制造、智能仓储WMS系统。
+  <div class="qdhlkjjs_div">
+	  <div class="space2_div"></div>
+	  <div class="row_div">
+		青岛华凌科技有限公司致力于运用工业物联网、蓝牙定位等新技术，打造新一代智能化生产制造、智能仓储WMS系统。
 	  </div>
-	  <div style="height:10px;"></div>
-	  <div style="width:95%;font-size:12px;margin:0 auto;">
+	  <div class="space2_div"></div>
+	  <div class="row_div">
 		辰麒工业物联网软件包括MES远程监控平台、厂区人员定位系统，二维码产品追溯系统以及基于RFID和手机应用的新一代WMS系统等多个应用软件平台，为实现企业智能制造和智慧仓储提供全方位信息化技术服务。
 	  </div>
-	  <div style="height:10px;"></div>
+	  <div class="space2_div"></div>
   </div>
 
-  <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;bottom:0;position:fixed;">
-	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
-	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">邮箱地址：qdhualing@126.com</div>
-	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">自动化控制系统集成网址：www.qdhualing.com</div>
-	<div style="color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;">青岛辰麒数维软件有限公司  <a href="http://www.beian.miit.gov.cn" style="color:#fff;text-decoration:none;">鲁ICP备19062226号-4</a></div>
+  <div class="bottom_div">
+	<div class="lxfs_div">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+	<div class="yxdz_div">邮箱地址：qdhualing@126.com</div>
+	<div class="zdhkz_div">自动化控制系统集成网址：www.qdhualing.com</div>
+	<div class="qdcqsw_div">青岛辰麒数维软件有限公司  <a href="http://www.beian.miit.gov.cn" style="color:#fff;text-decoration:none;">鲁ICP备19062226号-4</a></div>
   </div>
  </body>
 </html>
