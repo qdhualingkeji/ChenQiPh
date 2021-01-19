@@ -77,13 +77,13 @@
   .bottom_div{
 	width:100%;height:150px;padding-top: 1px;background-color:#1F232A;bottom:0;position:fixed;
   }
-  .lxfs_div{
+  .bottom_div .lxfs_div{
 	color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;
   }
-  .yxdz_div,.zdhkz_div{
+  .bottom_div .yxdz_div,.bottom_div .zdhkz_div{
 	color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;
   }
-  .qdcqsw_div{
+  .bottom_div .qdcqsw_div{
 	color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;
   }
   </style>
