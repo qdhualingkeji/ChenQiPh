@@ -297,6 +297,28 @@ body{
   </script>
  </head>
  <body>
+<<<<<<< HEAD
+  <div class="nav_div" style="height: 60px;width: 100%;border-bottom: 1px solid #fff;hsla(0,0%,100%,.2);top:0;background-color:#333;position:fixed;overflow:auto;">
+	<span style="color:#fff;font-size:12px;margin-top:23px;margin-left:12px;position:absolute;" onclick="closeWindow();">&lt;</span>
+	<div class="mes_div" style="width:33%;height:60px;line-height:60px;text-align:center;">
+		<a class="mes_a" href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
+	</div>
+	<div class="wlrydw_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:33%;text-align:center;">
+		<a class="wlrydw_a" href="thingsPerFix.html" style="color:#fff;text-decoration: none;">物联人员定位</a>
+	</div>
+	<div class="znczxt_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:70%;text-align:center;">
+		<a class="znczxt_a" href="intellectWeight.html" style="color:#fff;text-decoration: none;">智能称重系统</a>
+	</div>
+	<div class="gywm_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:104%;text-align:center;">
+		<a class="gywm_a" href="aboutUs.html" style="color:#fff;text-decoration: none;">关于我们</a>
+	</div>
+  </div>
+
+  <div style="width:100%;height:60px;"></div>
+
+  <div>
+	<img class="logo_img" style="width:100%;" src="repository/image/202011240001.jpg"/>
+=======
   <div class="nav_div">
 	<span class="cw_span" onclick="closeWindow();">&lt;</span>
 	<div class="item_div mes_div">
@@ -317,6 +339,7 @@ body{
 
   <div>
 	<img class="logo_img" src="repository/image/202011240001.jpg"/>
+>>>>>>> b7aad60260816923eb86f2b056cb3966853bd172
   </div>
 
   <div class="yhtd_div">

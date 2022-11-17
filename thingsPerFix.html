@@ -40,84 +40,167 @@
 	$("#cqztxcxdjg_img").css("height",bw*656/1140+"px");
   });
   </script>
+  <style>
+  body{
+	margin:0;
+  }
+  .nav_div{
+	width: 100%;
+	height: 60px;
+	color:#fff;
+	border-bottom: 1px solid;
+	hsla(0,0%,100%,.2);
+	background-color:#333;
+	overflow:auto;
+  }
+  .nav_div .cw_span{
+	color:#fff;
+	font-size:12px;
+	margin-top:23px;
+	margin-left:12px;
+	position:absolute;
+  }
+  .nav_div .item_div{
+	width:33%;height:60px;line-height:60px;text-align:center;
+  }
+  .nav_div .wlrydw_div{
+	margin-top:-60px;margin-left:33%;
+  }
+  .nav_div .znczxt_div{
+	margin-top:-60px;margin-left:70%;
+  }
+  .nav_div .gywm_div{
+	margin-top:-60px;margin-left:104%;
+  }
+  .nav_div .mes_a,.nav_div .wlrydw_a,.nav_div .znczxt_a,.nav_div .gywm_a{
+	color:#fff;text-decoration: none;
+  }
+  .logo_img{
+	width:100%;
+	height: 100%;
+  }
+  .cqwlrydwxtys_div,.gjdrydwxtjg_div{
+	height:20px;
+	line-height:20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-left: 8px;
+	border-left: 2px solid #09f;
+  }
+  .cqwlrydwxtys_img_div{
+	text-align: center;
+  }
+  .cqwlrydwxtys_img{
+	max-width: 100%;
+	min-height: 20px;
+  }
+  .dwxb_div{
+	width:95%;font-size:12px;margin:0 auto;
+  }
+  .xtjg_img,.ryssdwgl_img,.gjzzspld_img,.fkaqgl_img,.dzxggl_img,.cbsrygl_img,.cqztxcxdjg_img{
+	width:100%;
+  }
+  .ryssdwgl_div,.gjzzyspld_div,.fkaqgl_div,.dzxggl_div,.cbsrygl_div,.cqztxcxdjg_div{
+	height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;
+  }
+  .ryssfbzl_div,.rrwzsszz_div,.fkwzsszz_div,.zgrwzxgl_div,.cbsgstj_div,.cqryssdw_div{
+	width:95%;font-size:12px;margin:0 auto;text-align:center;
+  }
+  .space1_div{
+	height:10px;
+  }
+  .bottom_div{
+	width:100%;height:150px;padding-top: 1px;background-color:#1F232A;
+  }
+  .bottom_div .lxfs_div{
+	height:30px;line-height:30px;color:#fff;font-size: 14px;margin-top: 10px;margin-left: 10px;
+  }
+  .bottom_div .yxdz_div,.bottom_div .zdhkz_div{
+	height:30px;line-height:30px;color:#fff;font-size: 14px;margin-left: 10px;
+  }
+  .bottom_div .qdcqsw_div{
+	width:95%;height:30px;line-height:30px;color:#fff;font-size:12px;text-align:center;margin:0 auto;
+  }
+  </style>
  </head>
- <body style="margin:0;">
-  <div style="background-color:#333;color:#fff;height: 60px;width: 100%;border-bottom: 1px solid;hsla(0,0%,100%,.2);overflow:auto;">
-	<span style="color:#fff;font-size:12px;margin-top:23px;margin-left:12px;position:absolute;" onclick="closeWindow();">&lt;</span>
-	<div style="width:33%;height:60px;line-height:60px;text-align:center;">
-		<a href="thingsMes.html" style="color:#fff;text-decoration: none;">物联MES</a>
+ <body>
+  <div class="nav_div">
+	<span class="cw_span" onclick="closeWindow();">&lt;</span>
+	<div class="item_div mes_div">
+		<a class="mes_a" href="thingsMes.html">物联MES</a>
 	</div>
-	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:33%;text-align:center;">
-		<a href="thingsPerFix.html" style="color:#fff;text-decoration: none;">物联人员定位</a>
+	<div class="item_div wlrydw_div">
+		<a class="wlrydw_a" href="thingsPerFix.html">物联人员定位</a>
 	</div>
-	<div class="znczxt_div" style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:70%;text-align:center;">
-		<a class="znczxt_a" href="intellectWeight.html" style="color:#fff;text-decoration: none;">智能称重系统</a>
+	<div class="item_div znczxt_div">
+		<a class="znczxt_a" href="intellectWeight.html">智能称重系统</a>
 	</div>
-	<div style="width:33%;height:60px;line-height:60px;margin-top:-60px;margin-left:104%;text-align:center;">
-		<a href="aboutUs.html" style="color:#fff;text-decoration: none;">关于我们</a>
+	<div class="item_div gywm_div">
+		<a class="gywm_a" href="aboutUs.html">关于我们</a>
 	</div>
   </div>
 
   <div class="logoImg_div" id="logoImg_div">
-	<img style="width:100%;height: 100%;" src="file/20190728/renyuandingwei.jpg"/>
+	<img class="logo_img" src="file/20190728/renyuandingwei.jpg"/>
   </div>
 
-  <div style="height:20px;line-height:20px;margin-top: 5px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">辰麒物联网人员定位系统优势</div>
-  <div style="text-align: center;">
-	  <img style="min-height: 20px;max-width: 100%;" data-v-38a36330="" srcset="https://res.cosmoplat.com/cosmoplat/image/5abde7e0-b4f7-4d43-81b0-1e38d6705307.jpg 1023w, file/20190728/1_85a206db-dc95-4ced-badf-4f8e9e8aaa01.png"  data-src="file/20190728/1_85a206db-dc95-4ced-badf-4f8e9e8aaa01.png" src="file/20190728/1_85a206db-dc95-4ced-badf-4f8e9e8aaa01.png" lazy="loaded">
+  <div class="cqwlrydwxtys_div">辰麒物联网人员定位系统优势</div>
+  <div class="cqwlrydwxtys_img_div">
+	  <img class="cqwlrydwxtys_img" data-v-38a36330="" srcset="https://res.cosmoplat.com/cosmoplat/image/5abde7e0-b4f7-4d43-81b0-1e38d6705307.jpg 1023w, file/20190728/1_85a206db-dc95-4ced-badf-4f8e9e8aaa01.png"  data-src="file/20190728/1_85a206db-dc95-4ced-badf-4f8e9e8aaa01.png" src="file/20190728/1_85a206db-dc95-4ced-badf-4f8e9e8aaa01.png" lazy="loaded">
   </div>
 
-  <div style="height:20px;line-height:20px;margin-top: 5px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">高精度人员定位系统架构</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;">
+  <div class="gjdrydwxtjg_div">高精度人员定位系统架构</div>
+  <div class="dwxb_div">
 	  <div>定位信标：</div>
 	  <div>1.IP68防水抗压防腐，续航10年，部署无需拉电施工</div>
 	  <div>2.本质安全防爆认证，可用于最危险的0区环境</div>
   </div>
   <div>
-	<img id="xtjg_img" src="repository/image/202001140005.jpg" style="width:100%;"/>
+	<img id="xtjg_img" src="repository/image/202001140005.jpg"/>
   </div>
-  <div style="height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">人员实时定位管理</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;text-align:center;">● 人员实时分布总览&nbsp;&nbsp;厂内人员分类统计&nbsp;&nbsp;视频画面实时查看 ●</div>
-  <div style="height:10px;"></div>
+  <div class="ryssdwgl_div">人员实时定位管理</div>
+  <div class="ryssfbzl_div">● 人员实时分布总览&nbsp;&nbsp;厂内人员分类统计&nbsp;&nbsp;视频画面实时查看 ●</div>
+  <div class="space1_div"></div>
   <div>
-	<img id="ryssdwgl_img" src="repository/image/202001140001.jpg" style="width:100%;"/>
+	<img class="ryssdwgl_img" id="ryssdwgl_img" src="repository/image/202001140001.jpg"/>
   </div>
-  <div style="height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">轨迹追踪与视频联动</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;text-align:center;">● 人员位置实时追踪&nbsp;&nbsp;人员历史轨迹分析&nbsp;&nbsp;监控视频联动 ●</div>
-  <div style="height:10px;"></div>
+  <div class="gjzzyspld_div">轨迹追踪与视频联动</div>
+  <div class="rrwzsszz_div">● 人员位置实时追踪&nbsp;&nbsp;人员历史轨迹分析&nbsp;&nbsp;监控视频联动 ●</div>
+  <div class="space1_div"></div>
   <div>
-	<img id="gjzzspld_img" src="repository/image/202001140006.jpg" style="width:100%;"/>
+	<img class="gjzzspld_img" id="gjzzspld_img" src="repository/image/202001140006.jpg"/>
   </div>
-  <div style="height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">访客安全管理</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;text-align:center;">● 访客位置实时追踪&nbsp;&nbsp;访客越权访问立即预警&nbsp;&nbsp;访客智能登记与身份审核 ●</div>
-  <div style="height:10px;"></div>
+  <div class="fkaqgl_div">访客安全管理</div>
+  <div class="fkwzsszz_div">● 访客位置实时追踪&nbsp;&nbsp;访客越权访问立即预警&nbsp;&nbsp;访客智能登记与身份审核 ●</div>
+  <div class="space1_div"></div>
   <div>
-	<img id="fkaqgl_img" src="repository/image/202001140002.jpg" style="width:100%;"/>
+	<img class="fkaqgl_img" id="fkaqgl_img" src="repository/image/202001140002.jpg"/>
   </div>
-  <div style="height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">电子巡更管理</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;text-align:center;">● 巡更任务执行管理&nbsp;&nbsp;巡更过程高效监管&nbsp;&nbsp;巡更工作智能考核 ●</div>
-  <div style="height:10px;"></div>
+  <div class="dzxggl_div">电子巡更管理</div>
+  <div class="zgrwzxgl_div">● 巡更任务执行管理&nbsp;&nbsp;巡更过程高效监管&nbsp;&nbsp;巡更工作智能考核 ●</div>
+  <div class="space1_div"></div>
   <div>
-	<img id="dzxggl_img" src="repository/image/202001140007.jpg" style="width:100%;"/>
+	<img class="dzxggl_img" id="dzxggl_img" src="repository/image/202001140007.jpg"/>
   </div>
-  <div style="height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">承包商人员管理</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;text-align:center;">● 承包商工时统计&nbsp;&nbsp;承包商区域访问权限管理&nbsp;&nbsp;承包商工作状态监管 ●</div>
-  <div style="height:10px;"></div>
+  <div class="cbsrygl_div">承包商人员管理</div>
+  <div class="cbsgstj_div">● 承包商工时统计&nbsp;&nbsp;承包商区域访问权限管理&nbsp;&nbsp;承包商工作状态监管 ●</div>
+  <div class="space1_div"></div>
   <div>
-	<img id="cbsrygl_img" src="repository/image/202001140008.jpg" style="width:100%;"/>
+	<img id="cbsrygl_img" src="repository/image/202001140008.jpg"/>
   </div>
-  <div style="height:20px;line-height:20px;margin-top: 35px;margin-bottom: 5px;margin-left: 10px;padding-left: 8px;border-left: 2px solid #09f;">厂区状态小程序端监管</div>
-  <div style="width:95%;font-size:12px;margin:0 auto;text-align:center;">● 厂区人员实时定位&nbsp;&nbsp;特定人员目标跟踪&nbsp;&nbsp;行为轨迹分析查看&nbsp;&nbsp;各类报警事件查看&nbsp;&nbsp;企业数据统计分析 ●</div>
-  <div style="height:10px;"></div>
+  <div class="cqztxcxdjg_div">厂区状态小程序端监管</div>
+  <div class="cqryssdw_div">● 厂区人员实时定位&nbsp;&nbsp;特定人员目标跟踪&nbsp;&nbsp;行为轨迹分析查看&nbsp;&nbsp;各类报警事件查看&nbsp;&nbsp;企业数据统计分析 ●</div>
+  <div class="space1_div"></div>
   <div>
-	<img id="cqztxcxdjg_img" src="repository/image/202001140009.jpg" style="width:100%;"/>
+	<img id="cqztxcxdjg_img" src="repository/image/202001140009.jpg"/>
   </div>
   
-  <div style="width:100%;height:150px;padding-top: 1px;background-color:#1F232A;">
-	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-top: 10px;margin-left: 10px;">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
-	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">邮箱地址：qdhualing@126.com</div>
-	<div style="color:#fff;font-size: 14px;height:30px;line-height:30px;margin-left: 10px;">自动化控制系统集成网址：www.qdhualing.com</div>
-	<div style="color:#fff;width:95%;font-size:12px;height:30px;line-height:30px;margin:0 auto;text-align:center;">青岛辰麒数维软件有限公司  <a href="http://www.beian.miit.gov.cn" style="color:#fff;text-decoration:none;">鲁ICP备19062226号-4</a></div>
+  <div class="bottom_div">
+	<div class="lxfs_div">联系方式：0532-55588351&nbsp;&nbsp;15712773653（微信同号）</div>
+	<div class="yxdz_div">邮箱地址：qdhualing@126.com</div>
+	<div class="zdhkz_div">自动化控制系统集成网址：www.qdhualing.com</div>
+	<div class="qdcqsw_div">青岛辰麒数维软件有限公司  <a href="https://beian.miit.gov.cn" target="_blank" style="color:#fff;text-decoration:none;">鲁ICP备19062226号-4</a></div>
   </div>
  </body>
 </html>
